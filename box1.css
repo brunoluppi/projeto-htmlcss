@@ -56,6 +56,16 @@
 	position: relative;
 	display: inline-block;
 }
+.boximgconsole {
+	width: 400px;
+	height: 400px;
+	left: 75%;
+	top: 20%;
+	padding: 0px;
+	margin: 5px;
+	position: relative;
+	display: inline-block;
+}
 p.conteudo {
 	position: absolute;
 	font-family: sans-serif;
@@ -64,6 +74,17 @@ p.conteudo {
 	font-weight: bold;
 	top: 50%;
     left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+p.contconsole {
+	position: absolute;
+	font-family: sans-serif;
+	font-style: arial;
+	font-size: 16px;
+	font-weight: bold;
+	top: 50%;
+    left: 20%;
     margin-right: -50%;
     transform: translate(-50%, -50%)
 }
