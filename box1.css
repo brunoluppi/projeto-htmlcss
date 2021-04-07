@@ -45,6 +45,16 @@
 	border: 3px solid black;
 	padding: 1px solid black;
 	margin: 15px;
+	opacity: 0.9;
+}
+.boxconsole {
+	border: 1px solid black;
+	width: 203px;
+	height: 203px;
+	padding: 0px;
+	margin: 5px;
+	position: relative;
+	display: inline-block;
 }
 p.conteudo {
 	position: absolute;
