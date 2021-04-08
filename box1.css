@@ -60,7 +60,7 @@
 	width: 400px;
 	height: 400px;
 	left: 75%;
-	top: 20%;
+	top: 50%;
 	padding: 0px;
 	margin: 5px;
 	position: relative;
@@ -85,7 +85,7 @@ p.contconsole {
 	font-weight: bold;
 	top: 50%;
     left: 20%;
-    margin-right: -100%;
+    margin-right: -50%;
     transform: translate(-50%, -50%)
 }
 /*MENU*/
