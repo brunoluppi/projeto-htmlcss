@@ -49,41 +49,46 @@
 }
 .boxconsole {
 	border: 1px solid black;
-	width: 203px;
-	height: 203px;
+	width: 205px;
+	height: 205px;
 	padding: 0px;
 	margin: 5px;
 	position: relative;
 	display: inline-block;
 }
+.boxtxt{
+	padding: 5px;
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 22px;
+}
 .boximgconsole {
 	width: 400px;
 	height: 400px;
-	left: 75%;
-	top: -50%;
+	left: 65%;
+	top: 20%;
 	padding: 0px;
 	margin: 5px;
-	position: relative;
+	position: absolute;
 	display: inline-block;
 }
 p.conteudo {
 	position: absolute;
 	font-family: sans-serif;
-	font-style: arial;
 	font-size: 26px;
 	font-weight: bold;
 	top: 50%;
     left: 50%;
     margin-right: -50%;
+    text-align: center;
     transform: translate(-50%, -50%)
 }
-p.contconsole {
+.contconsole {
+	width: 600px;
+	height: 400px;
 	position: absolute;
-	font-family: sans-serif;
-	font-style: arial;
-	font-size: 16px;
-	font-weight: bold;
-	top: 50%;
+	top: 35%;
     left: 20%;
     margin-right: -50%;
     transform: translate(-50%, -50%)
