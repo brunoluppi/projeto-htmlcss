@@ -1,14 +1,14 @@
-.background {
-	background-image: url("IMG/background.png");
+.background { /*Background pagina*/
+	background-image: url("IMG/background.png"); 
 }
-.logo {
+.logo { /*Logomarca*/
 	background-image: url("IMG/logo.png");
 }
-.container {
+.container { /*Facilita organização*/
   display: flex;
   flex-direction: column;
 }
-.ctnFlex{
+.ctnFlex{ /*Facilita organização*/
   display: flex;
   justify-content: space-between;
 }
